@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:millennium_app/Screen/FrontScreen/CreateAccountScreen.dart';
 import 'package:millennium_app/Screen/FrontScreen/FrontSlide.dart';
 import 'package:millennium_app/Screen/FrontScreen/LogInScreen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: showHome ? LogInScreen() : FrontSlider(),
+      home: showHome ? CreateAccountScreen() : FrontSlider(),
     );
   }
 }
