@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:lottie/lottie.dart';
+import 'package:millennium_app/Screen/FrontScreen/LogInScreen.dart';
 
 
 class CreateAccountScreen extends StatefulWidget {
@@ -26,7 +27,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
       
       appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.purple),
-        leading: IconButton(onPressed: (){}, icon: Icon(Icons.chevron_left)),
+        leading: IconButton(onPressed: () => Navigator.of(context).pop(), icon: Icon(Icons.chevron_left)),
         title: const Text("Create Your Account", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
         backgroundColor: Colors.transparent,
         bottomOpacity: 0.0,
@@ -238,7 +239,18 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Container(width: 150, child:TextButton(onPressed: (){}, child: Text("Log in", style: TextStyle(color: Colors.white),), style: ButtonStyle(
+                        Container(width: 150, child:TextButton(onPressed: (){
+
+                            Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const LogInScreen()),
+                      );
+
+
+
+
+
+                        }, child: Text("Log in", style: TextStyle(color: Colors.white),), style: ButtonStyle(
                          
                 backgroundColor: MaterialStatePropertyAll<Color>(Colors.purple),
               ),),),
