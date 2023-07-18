@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:lottie/lottie.dart';
+import 'package:millennium_app/Screen/AnotherScreen/NoInternet.dart';
 import 'package:millennium_app/Screen/FrontScreen/LogInScreen.dart';
 
 
@@ -20,9 +22,35 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
   Widget build(BuildContext context) {
 
     FocusNode myFocusNode = new FocusNode();
+
+      bool InternetConnection = false;
+
+    void ConnectionCheck() async {
+      bool result = await InternetConnectionChecker().hasConnection;
+      if (result == true) {
+        // print('YAY! Free cute dog pics!');
+       
+
+              
+    
+      } else {
+
+        Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const NoInternetScreen()),
+                      );
+
+
+
+        print('No internet :( Reason:');
+        print(InternetConnectionChecker().connectionStatus);
+      }
+    }
+
+    ConnectionCheck();
  
 
-    return Scaffold(
+    return  Scaffold(
       backgroundColor: Colors.white,
       
       appBar: AppBar(
