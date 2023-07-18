@@ -58,6 +58,10 @@ class _LogInScreenState extends State<LogInScreen> {
                       ),
                     ),
             
+            SizedBox(
+                      height: 20,
+                    ),
+            
             
             
                     TextField(
@@ -126,10 +130,27 @@ class _LogInScreenState extends State<LogInScreen> {
                     ),
             
             
-                    Container(width: 150, child:TextButton(onPressed: (){}, child: Text("Log in", style: TextStyle(color: Colors.white),), style: ButtonStyle(
-                     
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Container(width: 150, child:TextButton(onPressed: (){}, child: Text("Log in", style: TextStyle(color: Colors.white),), style: ButtonStyle(
+                         
                 backgroundColor: MaterialStatePropertyAll<Color>(Colors.purple),
-              ),),)
+              ),),),
+
+
+
+                    Container(width: 150, child:TextButton(onPressed: (){}, child: Text("Create Account", style: TextStyle(color: Colors.white),), style: ButtonStyle(
+                         
+                backgroundColor: MaterialStatePropertyAll<Color>(Colors.purple),
+              ),),),
+
+
+
+
+
+                      ],
+                    )
             
             
             
