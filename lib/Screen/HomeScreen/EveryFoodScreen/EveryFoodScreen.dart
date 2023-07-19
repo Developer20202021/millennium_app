@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:dotted_line/dotted_line.dart';
 
 class EveryFoodScreen extends StatefulWidget {
   const EveryFoodScreen({super.key});
@@ -136,7 +137,67 @@ class _EveryFoodScreenState extends State<EveryFoodScreen> {
                         ],
 
 
-                      )
+                      ),
+
+
+                      SizedBox(height: 30,),
+
+
+                      Container(child:  DottedLine(
+                              direction: Axis.horizontal,
+                              alignment: WrapAlignment.center,
+                              lineLength: double.infinity,
+                              lineThickness: 1.0,
+                              dashLength: 4.0,
+                              dashColor: Colors.black,
+                              dashGradient: [Colors.red, Colors.blue],
+                              dashRadius: 0.0,
+                              dashGapLength: 4.0,
+                              dashGapColor: Colors.transparent,
+                              dashGapGradient: [Colors.red, Colors.blue],
+                              dashGapRadius: 0.0,
+                            )),
+
+
+                            SizedBox(height: 20,),
+
+
+                          Align(
+                        alignment: Alignment.centerLeft,
+                        child: Container(
+                          
+                          child:  Text("Ingredients",
+                             textAlign:  TextAlign.left,
+                        style: TextStyle(color: Color.fromARGB(255, 48, 2, 56), 
+                        fontWeight: FontWeight.bold,
+                        fontSize: 17,
+                        
+                        
+                        ),
+                        
+                        ),
+                        ),
+                      ),
+
+
+
+                          Align(
+                        alignment: Alignment.centerLeft,
+                        child: Container(
+                          
+                          child:  Text("Potato, Biscuits, Tomato, Meat, Egg, Mutton",
+                             textAlign:  TextAlign.left,
+                        style: TextStyle(color: Colors.grey, 
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                        
+                        
+                        ),
+                        
+                        ),
+                        ),
+                      ),
+                      
 
 
 
@@ -155,3 +216,9 @@ class _EveryFoodScreenState extends State<EveryFoodScreen> {
       ));
   }
 }
+
+
+
+
+
+
