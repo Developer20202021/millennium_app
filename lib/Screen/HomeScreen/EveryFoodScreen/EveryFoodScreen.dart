@@ -150,7 +150,7 @@ class _EveryFoodScreenState extends State<EveryFoodScreen> {
                       children: [
                         Container(
                           child: Icon(
-                            Icons.balance_rounded,
+                            Icons.line_weight,
                             size: 40,
                             color: Colors.purple,
                           ),
@@ -204,11 +204,11 @@ class _EveryFoodScreenState extends State<EveryFoodScreen> {
                   lineThickness: 1.0,
                   dashLength: 4.0,
                   dashColor: Colors.black,
-                  dashGradient: [Colors.red, Colors.blue],
+                  dashGradient: [Colors.grey, Colors.purple],
                   dashRadius: 0.0,
                   dashGapLength: 4.0,
                   dashGapColor: Colors.transparent,
-                  dashGapGradient: [Colors.red, Colors.blue],
+                  dashGapGradient: [Colors.grey, Colors.purple],
                   dashGapRadius: 0.0,
                 )),
 
@@ -299,7 +299,7 @@ class _EveryFoodScreenState extends State<EveryFoodScreen> {
                 ),
 
                 SizedBox(
-                  height: 30,
+                  height: 20,
                 ),
 
                 Container(
@@ -310,11 +310,11 @@ class _EveryFoodScreenState extends State<EveryFoodScreen> {
                   lineThickness: 1.0,
                   dashLength: 4.0,
                   dashColor: Colors.black,
-                  dashGradient: [Colors.red, Colors.blue],
+                  dashGradient: [Colors.grey, Colors.purple],
                   dashRadius: 0.0,
                   dashGapLength: 4.0,
                   dashGapColor: Colors.transparent,
-                  dashGapGradient: [Colors.red, Colors.blue],
+                  dashGapGradient: [Colors.grey, Colors.purple],
                   dashGapRadius: 0.0,
                 )),
 
@@ -464,7 +464,11 @@ class _EveryFoodScreenState extends State<EveryFoodScreen> {
                     ),
                     child: Row(
                       children: [
-                        Icon(Icons.shopping_cart),
+                        Icon(Icons.shopping_cart, 
+                        
+                        color: Colors.purple,
+                        
+                        ),
                         Text(
                           "${UserAddToCartNumber}",
                           style: TextStyle(
