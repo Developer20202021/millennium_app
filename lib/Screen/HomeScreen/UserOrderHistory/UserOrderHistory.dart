@@ -20,6 +20,11 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
       "SubtotalPrice":"10",
       "DeliveryFee":"10",
       "OrderTotalPrice":"10",
+      "UserName":"Mahadi Hasan",
+      "UserPhoneNumber":"+8801767298388",
+      "UserEmail":"mahadi@gmail.com",
+      "UserAddress":"Joypurhat Rajshahi Bangladesh",
+
 
 
       "AllProduct":[
@@ -70,13 +75,19 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
 
 
 
-     {
+
+{
       "orderNumber":"Order#45654",
       "orderType":"Complete",
       "LastOrderHistoryTime":"21-01-2023 12:13AM",
       "SubtotalPrice":"10",
       "DeliveryFee":"10",
       "OrderTotalPrice":"10",
+      "UserName":"Mahadi Hasan",
+      "UserPhoneNumber":"+8801767298388",
+      "UserEmail":"mahadi@gmail.com",
+      "UserAddress":"Joypurhat Rajshahi Bangladesh",
+
 
 
       "AllProduct":[
@@ -126,13 +137,20 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
 
 
 
-     {
+
+
+    {
       "orderNumber":"Order#45654",
       "orderType":"Complete",
       "LastOrderHistoryTime":"21-01-2023 12:13AM",
       "SubtotalPrice":"10",
       "DeliveryFee":"10",
       "OrderTotalPrice":"10",
+      "UserName":"Mahadi Hasan",
+      "UserPhoneNumber":"+8801767298388",
+      "UserEmail":"mahadi@gmail.com",
+      "UserAddress":"Joypurhat Rajshahi Bangladesh",
+
 
 
       "AllProduct":[
@@ -178,18 +196,23 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
 
       ]
 
-    }
-    ,
+    },
 
 
 
-     {
+
+    {
       "orderNumber":"Order#45654",
       "orderType":"Complete",
       "LastOrderHistoryTime":"21-01-2023 12:13AM",
       "SubtotalPrice":"10",
       "DeliveryFee":"10",
       "OrderTotalPrice":"10",
+      "UserName":"Mahadi Hasan",
+      "UserPhoneNumber":"+8801767298388",
+      "UserEmail":"mahadi@gmail.com",
+      "UserAddress":"Joypurhat Rajshahi Bangladesh",
+
 
 
       "AllProduct":[
@@ -235,7 +258,438 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
 
       ]
 
-    }
+    },
+
+
+
+
+    {
+      "orderNumber":"Order#45654",
+      "orderType":"Complete",
+      "LastOrderHistoryTime":"21-01-2023 12:13AM",
+      "SubtotalPrice":"10",
+      "DeliveryFee":"10",
+      "OrderTotalPrice":"10",
+      "UserName":"Mahadi Hasan",
+      "UserPhoneNumber":"+8801767298388",
+      "UserEmail":"mahadi@gmail.com",
+      "UserAddress":"Joypurhat Rajshahi Bangladesh",
+
+
+
+      "AllProduct":[
+        {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+
+      ]
+
+    },
+
+
+
+
+    {
+      "orderNumber":"Order#45654",
+      "orderType":"Complete",
+      "LastOrderHistoryTime":"21-01-2023 12:13AM",
+      "SubtotalPrice":"10",
+      "DeliveryFee":"10",
+      "OrderTotalPrice":"10",
+      "UserName":"Mahadi Hasan",
+      "UserPhoneNumber":"+8801767298388",
+      "UserEmail":"mahadi@gmail.com",
+      "UserAddress":"Joypurhat Rajshahi Bangladesh",
+
+
+
+      "AllProduct":[
+        {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+
+      ]
+
+    },
+
+
+
+
+
+    {
+      "orderNumber":"Order#45654",
+      "orderType":"Complete",
+      "LastOrderHistoryTime":"21-01-2023 12:13AM",
+      "SubtotalPrice":"10",
+      "DeliveryFee":"10",
+      "OrderTotalPrice":"10",
+      "UserName":"Mahadi Hasan",
+      "UserPhoneNumber":"+8801767298388",
+      "UserEmail":"mahadi@gmail.com",
+      "UserAddress":"Joypurhat Rajshahi Bangladesh",
+
+
+
+      "AllProduct":[
+        {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+
+      ]
+
+    },
+
+
+    {
+      "orderNumber":"Order#45654",
+      "orderType":"Complete",
+      "LastOrderHistoryTime":"21-01-2023 12:13AM",
+      "SubtotalPrice":"10",
+      "DeliveryFee":"10",
+      "OrderTotalPrice":"10",
+      "UserName":"Mahadi Hasan",
+      "UserPhoneNumber":"+8801767298388",
+      "UserEmail":"mahadi@gmail.com",
+      "UserAddress":"Joypurhat Rajshahi Bangladesh",
+
+
+
+      "AllProduct":[
+        {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+
+      ]
+
+    },
+
+
+    {
+      "orderNumber":"Order#45654",
+      "orderType":"Cancel",
+      "LastOrderHistoryTime":"21-01-2023 12:13AM",
+      "SubtotalPrice":"10",
+      "DeliveryFee":"10",
+      "OrderTotalPrice":"10",
+      "UserName":"Mahadi Hasan",
+      "UserPhoneNumber":"+8801767298388",
+      "UserEmail":"mahadi@gmail.com",
+      "UserAddress":"Joypurhat Rajshahi Bangladesh",
+
+
+
+      "AllProduct":[
+        {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+
+      ]
+
+    },
+
+
+    {
+      "orderNumber":"Order#45654",
+      "orderType":"Cooking",
+      "LastOrderHistoryTime":"21-01-2023 12:13AM",
+      "SubtotalPrice":"10",
+      "DeliveryFee":"10",
+      "OrderTotalPrice":"10",
+      "UserName":"Mahadi Hasan",
+      "UserPhoneNumber":"+8801767298388",
+      "UserEmail":"mahadi@gmail.com",
+      "UserAddress":"Joypurhat Rajshahi Bangladesh",
+
+
+
+      "AllProduct":[
+        {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+
+      ]
+
+    },
+
+
+    {
+      "orderNumber":"Order#45654",
+      "orderType":"Shipped",
+      "LastOrderHistoryTime":"21-01-2023 12:13AM",
+      "SubtotalPrice":"10",
+      "DeliveryFee":"10",
+      "OrderTotalPrice":"10",
+      "UserName":"Mahadi Hasan",
+      "UserPhoneNumber":"+8801767298388",
+      "UserEmail":"mahadi@gmail.com",
+      "UserAddress":"Joypurhat Rajshahi Bangladesh",
+
+
+
+      "AllProduct":[
+        {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+           {
+          "ProductName":"Burger Tasty Food",
+          "ProductImageURL":"https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg?w=2000",
+          "OrderRating":"5",
+          "OrderAmount":"/1kg / 120 Kcal",
+          "OrderSelection":"1",
+          "OrderPrice":"15",
+        },
+
+
+
+      ]
+
+    },
+
+
+
+     
 
 
 
@@ -295,10 +749,30 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
                         ),
                         subtitle: Row(
                           children: [
-                            Icon(
-                              Icons.payment,
+                          item["orderType"] =="Complete"?  Icon(
+                              Icons.check,
+                              color: Colors.green,
+                            ):Text(""),
+
+                            item["orderType"] =="Shipped"?  Icon(
+                              Icons.local_shipping,
                               color: Colors.purple,
-                            ),
+                            ):Text(""),
+
+                            item["orderType"] =="Cooking"?  Icon(
+                              Icons.kitchen,
+                              color: Colors.purple,
+                            ):Text(""),
+
+                             item["orderType"] =="Cancel"?  Icon(
+                              Icons.close,
+                              color: Colors.red,
+                            ):Text(""),
+
+
+
+
+
                             SizedBox(
                               width: 5,
                             ),
@@ -544,7 +1018,7 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
                                 width: 10,
                               ),
                               Text(
-                                "10",
+                                "${item["SubtotalPrice"]}",
                                 style: TextStyle(
                                     color: Colors.purple,
                                     fontWeight: FontWeight.bold,
@@ -581,7 +1055,7 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
                                 width: 10,
                               ),
                               Text(
-                                "10",
+                                "${item["DeliveryFee"]}",
                                 style: TextStyle(
                                     color: Colors.purple,
                                     fontWeight: FontWeight.bold,
@@ -617,7 +1091,7 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
                                 width: 10,
                               ),
                               Text(
-                                "10",
+                                "${item["OrderTotalPrice"]}",
                                 style: TextStyle(
                                     color: Colors.purple,
                                     fontWeight: FontWeight.bold,
@@ -656,7 +1130,7 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
                                   ),
 
                                   Text(
-                                    "Name: Mahadi Hasan +012123214",
+                                    "Name: ${item["UserName"]} ${item["UserPhoneNumber"]}",
                                     style: TextStyle(
                                         color: Colors.grey,
                                         fontWeight: FontWeight.bold,
@@ -664,7 +1138,7 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
                                   ),
 
                                   Text(
-                                    "Email: mahadi@gmail.com",
+                                    "Email: ${item["UserEmail"]}",
                                     style: TextStyle(
                                         color: Colors.grey,
                                         fontWeight: FontWeight.bold,
@@ -696,7 +1170,7 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
                                   ),
 
                                   Text(
-                                    "Joypurhat Rajshahi Bangladesh",
+                                    "${item["UserAddress"]}",
                                     style: TextStyle(
                                         color: Colors.grey,
                                         fontWeight: FontWeight.bold,
@@ -704,7 +1178,7 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
                                   ),
 
                                   Text(
-                                    "Joypurhat Rajshahi Bangladesh",
+                                    "${item["UserAddress"]}",
                                     style: TextStyle(
                                         color: Colors.grey,
                                         fontWeight: FontWeight.bold,
