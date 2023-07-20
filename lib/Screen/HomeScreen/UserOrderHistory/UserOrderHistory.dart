@@ -740,6 +740,9 @@ class _UserOrderHistoryState extends State<UserOrderHistory> {
                       data: Theme.of(context)
                           .copyWith(dividerColor: Colors.transparent),
                       child: ExpansionTile(
+                        leading: Icon(Icons.food_bank, color: Colors.purple,
+                        size: 40,
+                        ),
                         title: Text(
                           '${item["orderNumber"]}',
                           style: TextStyle(
