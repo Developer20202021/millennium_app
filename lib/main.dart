@@ -4,6 +4,7 @@ import 'package:millennium_app/Screen/FrontScreen/CreateAccountScreen.dart';
 import 'package:millennium_app/Screen/FrontScreen/FrontSlide.dart';
 import 'package:millennium_app/Screen/FrontScreen/LogInScreen.dart';
 import 'package:millennium_app/Screen/HomeScreen/EveryFoodScreen/EveryFoodScreen.dart';
+import 'package:millennium_app/Screen/HomeScreen/UserOrderHistory/UserOrderHistory.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: showHome ? EveryFoodScreen() : FrontSlider(),
+      home: showHome ? UserOrderHistory() : FrontSlider(),
     );
   }
 }
