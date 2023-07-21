@@ -77,7 +77,7 @@ class _UserProfileState extends State<UserProfile> {
                         
                                 Row(
                                   children: [
-                                    Icon(Icons.point_of_sale, color: Colors.purple,),
+                                    Icon(Icons.shopping_cart, color: Colors.purple,),
                                     Text("Order: 50 ",style: TextStyle(color: Color.fromARGB(255, 131, 90, 7), fontWeight: FontWeight.bold,
                                     fontSize: 15,
                                     ),),
@@ -103,7 +103,7 @@ class _UserProfileState extends State<UserProfile> {
                         
                                  Row(
                                   children: [
-                                    Icon(Icons.point_of_sale, color: Colors.purple,),
+                                    Icon(Icons.share, color: Colors.purple,),
                                     Text("Connection: 50 ",style: TextStyle(color: Color.fromARGB(255, 131, 90, 7), fontWeight: FontWeight.bold,
                                     fontSize: 15,
                                     ),),
@@ -178,7 +178,7 @@ class _UserProfileState extends State<UserProfile> {
                       data: Theme.of(context)
                           .copyWith(dividerColor: Colors.transparent),
                       child: ExpansionTile(
-                        leading: Icon(Icons.info, color: Colors.purple,
+                        leading: Icon(Icons.share, color: Colors.purple,
                         size: 30,
                         ),
                         title: Text("Connect Friend",
@@ -208,7 +208,7 @@ class _UserProfileState extends State<UserProfile> {
                       data: Theme.of(context)
                           .copyWith(dividerColor: Colors.transparent),
                       child: ExpansionTile(
-                        leading: Icon(Icons.info, color: Colors.purple,
+                        leading: Icon(Icons.card_membership, color: Colors.purple,
                         size: 30,
                         ),
                         title: Text("Get Membership",
@@ -238,7 +238,7 @@ class _UserProfileState extends State<UserProfile> {
                       data: Theme.of(context)
                           .copyWith(dividerColor: Colors.transparent),
                       child: ExpansionTile(
-                        leading: Icon(Icons.info, color: Colors.purple,
+                        leading: Icon(Icons.attach_money, color: Colors.purple,
                         size: 30,
                         ),
                         title: Text("Earn Points",
@@ -272,7 +272,7 @@ class _UserProfileState extends State<UserProfile> {
                       data: Theme.of(context)
                           .copyWith(dividerColor: Colors.transparent),
                       child: ExpansionTile(
-                        leading: Icon(Icons.info, color: Colors.purple,
+                        leading: Icon(Icons.location_on, color: Colors.purple,
                         size: 30,
                         ),
                         title: Text("Change Address",
@@ -287,6 +287,71 @@ class _UserProfileState extends State<UserProfile> {
                         
                         
                         )))),
+
+
+
+
+
+
+
+
+
+                        
+
+
+            // Settings
+                         Card(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        top: 16.0, left: 6.0, right: 6.0, bottom: 6.0),
+                    child: Theme(
+                      data: Theme.of(context)
+                          .copyWith(dividerColor: Colors.transparent),
+                      child: ExpansionTile(
+                        leading: Icon(Icons.settings, color: Colors.purple,
+                        size: 30,
+                        ),
+                        title: Text("Settings",
+                        
+                         style: TextStyle(
+                              color: Color.fromARGB(255, 48, 2, 56),
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18),)
+                        
+                        
+                        
+                        
+                        
+                        )))),
+
+
+
+
+         // Help & Support
+                         Card(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        top: 16.0, left: 6.0, right: 6.0, bottom: 6.0),
+                    child: Theme(
+                      data: Theme.of(context)
+                          .copyWith(dividerColor: Colors.transparent),
+                      child: ExpansionTile(
+                        leading: Icon(Icons.contact_support, color: Colors.purple,
+                        size: 30,
+                        ),
+                        title: Text("Help & Support",
+                        
+                         style: TextStyle(
+                              color: Color.fromARGB(255, 48, 2, 56),
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18),)
+                        
+                        
+                        
+                        
+                        
+                        )))),
+
 
 
 
