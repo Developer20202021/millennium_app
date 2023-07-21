@@ -58,26 +58,98 @@ class _UserProfileState extends State<UserProfile> {
                             children: [
                               
                               ListTile(
-                                leading: Icon(Icons.share),
+                                leading: Icon(Icons.share, color: Colors.purple,),
                                 title: Text('Share'),
+                                trailing: Container(
+                                        width: 100,
+                                        child: TextButton(
+                                          onPressed: () {},
+                                          child: Text(
+                                            "Share",
+                                            style:
+                                                TextStyle(color: Colors.white),
+                                          ),
+                                          style: ButtonStyle(
+                                            backgroundColor:
+                                                MaterialStatePropertyAll<Color>(
+                                                    Colors.purple),
+                                          ),
+                                        ),
+                                      ),
                               ),
-                              Switch(
+                              // Switch(
+                              //     // thumb color (round icon)
+                              //       activeColor: Colors.blue,  
+                              //       activeTrackColor: Colors.yellow,  
+                              //       inactiveThumbColor: Colors.redAccent,  
+                              //       inactiveTrackColor: Colors.orange,  
+                              //     // boolean variable value
+                              //     value: isSwitched,  
+                              //     // changes the state of the switch
+                              //     onChanged: toggleSwitch, ),
+
+                              ListTile(
+                                leading: Icon(Icons.dark_mode, color: Colors.purple,),
+                                title: Text('Dark Mode'),
+                                trailing:  Switch(
                                   // thumb color (round icon)
-                                    activeColor: Colors.blue,  
-                                    activeTrackColor: Colors.yellow,  
-                                    inactiveThumbColor: Colors.redAccent,  
-                                    inactiveTrackColor: Colors.orange,  
+                                    activeColor: Colors.purple,  
+                                    activeTrackColor: Colors.grey,  
+                                    inactiveThumbColor: Colors.green,  
+                                    inactiveTrackColor: Colors.white,  
                                   // boolean variable value
                                   value: isSwitched,  
                                   // changes the state of the switch
                                   onChanged: toggleSwitch, ),
-                              ListTile(
-                                leading: Icon(Icons.copy),
-                                title: Text('Copy Link'),
                               ),
-                              ListTile(
-                                leading: Icon(Icons.edit),
-                                title: Text('Edit'),
+
+
+                             ListTile(
+                                leading: Icon(Icons.edit,
+                                color: Colors.purple,),
+                                title: Text('Edit Profile'),
+                                trailing: Container(
+                                        width: 100,
+                                        child: TextButton(
+                                          onPressed: () {},
+                                          child: Text(
+                                            "Edit",
+                                            style:
+                                                TextStyle(color: Colors.white),
+                                          ),
+                                          style: ButtonStyle(
+                                            backgroundColor:
+                                                MaterialStatePropertyAll<Color>(
+                                                    Colors.purple),
+                                          ),
+                                        ),
+                                      ),
+                              ),
+
+
+
+
+
+                               ListTile(
+                                leading: Icon(Icons.change_circle,
+                                color: Colors.purple,),
+                                title: Text('Change Theme'),
+                                trailing: Container(
+                                        width: 100,
+                                        child: TextButton(
+                                          onPressed: () {},
+                                          child: Text(
+                                            "Change",
+                                            style:
+                                                TextStyle(color: Colors.white),
+                                          ),
+                                          style: ButtonStyle(
+                                            backgroundColor:
+                                                MaterialStatePropertyAll<Color>(
+                                                    Colors.purple),
+                                          ),
+                                        ),
+                                      ),
                               ),
                             ],
                           );
