@@ -10,6 +10,28 @@ class UserProfile extends StatefulWidget {
 class _UserProfileState extends State<UserProfile> {
   @override
   Widget build(BuildContext context) {
+     bool isSwitched = false;  
+  var textValue = 'Switch is OFF';  
+  
+  void toggleSwitch(bool value) {  
+  
+    if(isSwitched == false)  
+    {  
+      setState(() {  
+        isSwitched = true;  
+        textValue = 'Switch Button is ON';  
+      });  
+      print('Switch Button is ON');  
+    }  
+    else  
+    {  
+      setState(() {  
+        isSwitched = false;  
+        textValue = 'Switch Button is OFF';  
+      });  
+      print('Switch Button is OFF');  
+    }  
+  }  
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
@@ -26,12 +48,44 @@ class _UserProfileState extends State<UserProfile> {
           ),
           actions: [
             Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Icon(
-                Icons.settings,
-                color: Colors.purple,
-              ),
-            )
+                padding: const EdgeInsets.all(8.0),
+                child: IconButton(
+                  onPressed: () {
+                    showModalBottomSheet(
+                        context: context,
+                        builder: (context) {
+                          return Wrap(
+                            children: [
+                              
+                              ListTile(
+                                leading: Icon(Icons.share),
+                                title: Text('Share'),
+                              ),
+                              Switch(
+                                  // thumb color (round icon)
+                                    activeColor: Colors.blue,  
+                                    activeTrackColor: Colors.yellow,  
+                                    inactiveThumbColor: Colors.redAccent,  
+                                    inactiveTrackColor: Colors.orange,  
+                                  // boolean variable value
+                                  value: isSwitched,  
+                                  // changes the state of the switch
+                                  onChanged: toggleSwitch, ),
+                              ListTile(
+                                leading: Icon(Icons.copy),
+                                title: Text('Copy Link'),
+                              ),
+                              ListTile(
+                                leading: Icon(Icons.edit),
+                                title: Text('Edit'),
+                              ),
+                            ],
+                          );
+                        });
+                  },
+                  icon: Icon(Icons.settings),
+                  color: Colors.purple,
+                ))
           ],
           backgroundColor: Colors.transparent,
           bottomOpacity: 0.0,
@@ -41,107 +95,100 @@ class _UserProfileState extends State<UserProfile> {
             child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Column(children: [
-                 
-                 
-                 Column(
-                   children: [
-                                
-                     CircleAvatar(
-                       
-                       radius: 70,
-                       backgroundImage: NetworkImage(
-                         "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
-                       ),
-                       
-                     ),
-                                
-                                
-                     Center(
-                       child: Text(
-                         "Mahadi Hasan ",
-                         style: TextStyle(
-                           color: Colors.black45,
-                           fontWeight: FontWeight.bold,
-                           fontSize: 17,
-                         ),
-                       ),
-                     ),
-                     Center(
-                       child: Text(
-                         "mahadihasan@gmail.com",
-                         style: TextStyle(
-                           color: Colors.blueGrey,
-                           fontWeight: FontWeight.bold,
-                           fontSize: 13,
-                         ),
-                       ),
-                     ),
-                     Center(
-                       child: Padding(
-                         padding: const EdgeInsets.all(12.0),
-                         child: Row(
-                           mainAxisAlignment: MainAxisAlignment.spaceAround,
-                           children: [
-                             Row(
-                               children: [
-                                 Icon(
-                                   Icons.shopping_cart,
-                                   color: Colors.purple,
-                                 ),
-                                 Text(
-                                   "Order: 50 ",
-                                   style: TextStyle(
-                                     color: Color.fromARGB(255, 131, 90, 7),
-                                     fontWeight: FontWeight.bold,
-                                     fontSize: 15,
-                                   ),
-                                 ),
-                               ],
-                             ),
-                             SizedBox(
-                               width: 5,
-                             ),
-                             Row(
-                               children: [
-                                 Icon(
-                                   Icons.point_of_sale,
-                                   color: Colors.purple,
-                                 ),
-                                 Text(
-                                   "Points: 50 ",
-                                   style: TextStyle(
-                                     color: Color.fromARGB(255, 131, 90, 7),
-                                     fontWeight: FontWeight.bold,
-                                     fontSize: 15,
-                                   ),
-                                 ),
-                               ],
-                             ),
-                             SizedBox(
-                               width: 5,
-                             ),
-                             Row(
-                               children: [
-                                 Icon(
-                                   Icons.share,
-                                   color: Colors.purple,
-                                 ),
-                                 Text(
-                                   "Connection: 50 ",
-                                   style: TextStyle(
-                                     color: Color.fromARGB(255, 131, 90, 7),
-                                     fontWeight: FontWeight.bold,
-                                     fontSize: 15,
-                                   ),
-                                 ),
-                               ],
-                             ),
-                           ],
-                         ),
-                       ),
-                     ),
-                   ],
-                 ),
+                  Column(
+                    children: [
+                      CircleAvatar(
+                        radius: 70,
+                        backgroundImage: NetworkImage(
+                          "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+                        ),
+                      ),
+                      Center(
+                        child: Text(
+                          "Mahadi Hasan ",
+                          style: TextStyle(
+                            color: Colors.black45,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 17,
+                          ),
+                        ),
+                      ),
+                      Center(
+                        child: Text(
+                          "mahadihasan@gmail.com",
+                          style: TextStyle(
+                            color: Colors.blueGrey,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13,
+                          ),
+                        ),
+                      ),
+                      Center(
+                        child: Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            children: [
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.shopping_cart,
+                                    color: Colors.purple,
+                                  ),
+                                  Text(
+                                    "Order: 50 ",
+                                    style: TextStyle(
+                                      color: Color.fromARGB(255, 131, 90, 7),
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 15,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              SizedBox(
+                                width: 5,
+                              ),
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.point_of_sale,
+                                    color: Colors.purple,
+                                  ),
+                                  Text(
+                                    "Points: 50 ",
+                                    style: TextStyle(
+                                      color: Color.fromARGB(255, 131, 90, 7),
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 15,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              SizedBox(
+                                width: 5,
+                              ),
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.share,
+                                    color: Colors.purple,
+                                  ),
+                                  Text(
+                                    "Connection: 50 ",
+                                    style: TextStyle(
+                                      color: Color.fromARGB(255, 131, 90, 7),
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 15,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
 
                   //Information
                   Card(
@@ -633,8 +680,6 @@ class _UserProfileState extends State<UserProfile> {
   }
 }
 
-
-
 // class CustomClipPath extends CustomClipper<Path> {
 //   @override
 //   Path getClip(Size size) {
@@ -651,19 +696,12 @@ class _UserProfileState extends State<UserProfile> {
 //     return path;
 //   }
 
-
 //   @override
 //   bool shouldReclip(CustomClipper<Path> oldClipper) {
 //     return true;
 //   }
 
-
-
 // }
-
-
-
-
 
 class CurvePainter extends CustomPainter {
   @override
@@ -688,4 +726,3 @@ class CurvePainter extends CustomPainter {
     return true;
   }
 }
-
