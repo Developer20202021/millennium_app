@@ -21,7 +21,7 @@ class _TableOrderState extends State<TableOrder> {
               icon: Icon(Icons.chevron_left)),
           title: Center(
             child: const Text(
-              "Booked Table",
+              "Book Your Table",
               style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
             ),
           ),
