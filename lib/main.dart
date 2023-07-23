@@ -6,6 +6,7 @@ import 'package:millennium_app/Screen/FrontScreen/LogInScreen.dart';
 import 'package:millennium_app/Screen/HomeScreen/EveryFoodScreen/EveryFoodScreen.dart';
 import 'package:millennium_app/Screen/HomeScreen/TableOrder/ChooseProduct.dart';
 import 'package:millennium_app/Screen/HomeScreen/TableOrder/TableOrder.dart';
+import 'package:millennium_app/Screen/HomeScreen/TableOrder/TableStructure.dart';
 import 'package:millennium_app/Screen/HomeScreen/UserOrderHistory/UserOrderHistory.dart';
 import 'package:millennium_app/Screen/HomeScreen/UserProfile/UserProfile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: showHome ? ChooseProduct(): FrontSlider(),
+      home: showHome ? TableStructure(): FrontSlider(),
     );
   }
 }
