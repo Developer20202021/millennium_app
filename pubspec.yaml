@@ -44,6 +44,7 @@ dependencies:
   expandable: ^5.0.1
   circular_profile_avatar: ^2.0.5
   syncfusion_flutter_datepicker: ^22.1.39
+  awesome_snackbar_content: ^0.1.1
 
 dev_dependencies:
   flutter_test:
