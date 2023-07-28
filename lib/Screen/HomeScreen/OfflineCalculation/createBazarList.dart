@@ -19,7 +19,7 @@ class _createBazarListState extends State<createBazarList> {
               onPressed: () => Navigator.of(context).pop(),
               icon: Icon(Icons.chevron_left)),
           title: const Text(
-            "My Orders",
+            "Create Bazar List",
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
           ),
           backgroundColor: Colors.transparent,
