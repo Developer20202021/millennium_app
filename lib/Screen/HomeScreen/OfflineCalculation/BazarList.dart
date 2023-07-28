@@ -87,6 +87,10 @@ class _BazarListState extends State<BazarList> {
                         title: Text("Product Name"),
                         trailing: Text("140kg"),
                       ),
+
+
+
+                      
                          Container(width: 150, child:TextButton(onPressed: (){
 
 

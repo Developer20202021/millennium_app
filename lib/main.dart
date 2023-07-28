@@ -3,6 +3,7 @@ import 'package:millennium_app/Screen/AnotherScreen/NoInternet.dart';
 import 'package:millennium_app/Screen/FrontScreen/CreateAccountScreen.dart';
 import 'package:millennium_app/Screen/FrontScreen/FrontSlide.dart';
 import 'package:millennium_app/Screen/FrontScreen/LogInScreen.dart';
+import 'package:millennium_app/Screen/HomeScreen/Delivery/AllOrder.dart';
 import 'package:millennium_app/Screen/HomeScreen/EveryFoodScreen/EveryFoodScreen.dart';
 import 'package:millennium_app/Screen/HomeScreen/OfflineCalculation/BazarList.dart';
 import 'package:millennium_app/Screen/HomeScreen/OfflineCalculation/createBazarList.dart';
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: showHome ? BazarList(): FrontSlider(),
+      home: showHome ? AllOrder(): FrontSlider(),
     );
   }
 }
