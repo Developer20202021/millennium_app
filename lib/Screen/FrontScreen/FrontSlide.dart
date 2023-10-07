@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:millennium_app/Screen/HomeScreen/Delivery/AllOrder.dart';
 import 'package:millennium_app/main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -25,7 +26,7 @@ class _FrontSliderState extends State<FrontSlider> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: EdgeInsets.only(bottom: 80),
+      
         child: PageView(
           onPageChanged: (index) {
             setState(() => isLastPage = index == 2);
@@ -37,7 +38,7 @@ class _FrontSliderState extends State<FrontSlider> {
                 UrlImage: "lib/images/animation_lk77w75p.json",
                 Title: "Hello Our Member",
                 Subtitle:
-                    "আমাদের এখানে আপনি সকল খাদ্য দ্রব্য খুবই সুলভ মূল্যে পেয়ে যাবেন।আমাদের এখানে আপনি চাইলে ৫০% ডিসকাউন্ট দিয়ে সব কিছু ক্রয় করতে পারবেন।ধন্যবাদ আপনাকে আবার আসবেন স্যার। "),
+                    "আমাদের এখানে আপনি সকল খাদ্য দ্রব্য খুবই সুলভ মূল্যে পেয়ে যাবেন।৫০% ডিসকাউন্ট দিয়ে ক্রয় করতে পারবেন।ধন্যবাদ আপনাকে আবার আসবেন স্যার।"),
 
             // Container(
             //   color: Colors.red,
@@ -53,14 +54,14 @@ class _FrontSliderState extends State<FrontSlider> {
                 UrlImage: "lib/images/animation_lk772lso.json",
                 Title: "Hello Our Member",
                 Subtitle:
-                    "আমাদের এখানে আপনি সকল খাদ্য দ্রব্য খুবই সুলভ মূল্যে পেয়ে যাবেন।আমাদের এখানে আপনি চাইলে ৫০% ডিসকাউন্ট দিয়ে সব কিছু ক্রয় করতে পারবেন।ধন্যবাদ আপনাকে আবার আসবেন স্যার। "),
+                    ""),
 
             buildPage(
                 color: Colors.white,
                 UrlImage: "lib/images/animation_lk77t0ex.json",
                 Title: "Hello Our Member",
                 Subtitle:
-                    "আমাদের এখানে আপনি সকল খাদ্য দ্রব্য খুবই সুলভ মূল্যে পেয়ে যাবেন।আমাদের এখানে আপনি চাইলে ৫০% ডিসকাউন্ট দিয়ে সব কিছু ক্রয় করতে পারবেন।ধন্যবাদ আপনাকে আবার আসবেন স্যার। "),
+                    ""),
           ],
         ),
       ),
@@ -79,7 +80,7 @@ class _FrontSliderState extends State<FrontSlider> {
                     prefs.setBool("showHome", true);
 
                     Navigator.of(context).pushReplacement(MaterialPageRoute(
-                        builder: ((context) => MyHomePage(title: "Hello"))));
+                        builder: ((context) => AllOrder())));
                   },
                   child: Text(
                     "GET STARTED",

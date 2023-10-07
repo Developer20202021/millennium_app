@@ -710,16 +710,15 @@ class _AllOrderState extends State<AllOrder> {
           leading: IconButton(
               onPressed: () => Navigator.of(context).pop(),
               icon: Icon(Icons.chevron_left)),
-          title: Center(
-            child: const Text(
-              "Client New Order",
-              style:
-                  TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
-            ),
+          title: const Text(
+            "Client New Order",
+            style:
+                TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
           ),
           backgroundColor: Colors.transparent,
           bottomOpacity: 0.0,
           elevation: 0.0,
+          centerTitle: true,
         ),
         body:SingleChildScrollView(
           child: Padding(
@@ -775,18 +774,18 @@ class _AllOrderState extends State<AllOrder> {
 
 
                             SizedBox(
-                              width: 5,
+                              width: 2,
                             ),
                             Text("${item["orderType"]}"),
                             SizedBox(
-                              width: 5,
+                              width: 2,
                             ),
                             Text(
                               "${item["LastOrderHistoryTime"]}",
                               style: TextStyle(
                                   color: Colors.grey,
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 13),
+                                  fontSize: 11),
                             ),
                           ],
                         ),
