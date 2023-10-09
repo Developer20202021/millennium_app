@@ -225,7 +225,7 @@ var DataLoad = "";
         
         iconTheme: IconThemeData(color: Color.fromRGBO(92, 107, 192, 1)),
         automaticallyImplyLeading: false,
-        title: const Text("Staff", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
+        title: const Text("Set Delivery Man", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
         backgroundColor: Colors.transparent,
         bottomOpacity: 0.0,
         elevation: 0.0,
@@ -293,7 +293,7 @@ var DataLoad = "";
                     backgroundColor: Color.fromRGBO(92, 107, 192, 1),
                     foregroundColor: Colors.white,
                     icon: Icons.payment,
-                    label: 'Send SMS',
+                    label: 'Add',
                   ),
 
 
@@ -307,7 +307,7 @@ var DataLoad = "";
                     backgroundColor: Color(0xFF7BC043),
                     foregroundColor: Colors.white,
                     icon: Icons.payment,
-                    label: 'Block User',
+                    label: 'Send SMS',
                   ),
                 
                 ],

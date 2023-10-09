@@ -19,14 +19,14 @@ import 'package:millennium_app/Screen/DeveloperAccessories/developerThings.dart'
 
 
 
-class MakeStaff extends StatefulWidget {
-  const MakeStaff({super.key});
+class InputCustomerOTP extends StatefulWidget {
+  const InputCustomerOTP({super.key});
 
   @override
-  State<MakeStaff> createState() => _MakeStaffState();
+  State<InputCustomerOTP> createState() => _InputCustomerOTPState();
 }
 
-class _MakeStaffState extends State<MakeStaff> {
+class _InputCustomerOTPState extends State<InputCustomerOTP> {
   TextEditingController myEmailController = TextEditingController();
   TextEditingController myPassController = TextEditingController();
 
@@ -48,7 +48,7 @@ class _MakeStaffState extends State<MakeStaff> {
       appBar: AppBar(
         iconTheme: IconThemeData(color: ColorName().appColor),
         leading: IconButton(onPressed: () => Navigator.of(context).pop(), icon: Icon(Icons.chevron_left)),
-        title: const Text("Make Staff",  style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
+        title: const Text("Input Customer OTP",  style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
         backgroundColor: Colors.transparent,
         bottomOpacity: 0.0,
         elevation: 0.0,
@@ -60,7 +60,7 @@ class _MakeStaffState extends State<MakeStaff> {
                 child: Center(
                       child: LoadingAnimationWidget.discreteCircle(
                         color: const Color(0xFF1A1A3F),
-                        secondRingColor: Color.fromRGBO(92, 107, 192, 1),
+                        secondRingColor: ColorName().appColor,
                         thirdRingColor: Colors.white,
                         size: 100,
                       ),
@@ -86,24 +86,25 @@ class _MakeStaffState extends State<MakeStaff> {
             
             
                     TextField(
+                      keyboardType: TextInputType.number,
                      
                       decoration: InputDecoration(
                           border: OutlineInputBorder(),
-                          labelText: 'Enter Email',
+                          labelText: 'Enter Customer OTP',
                            labelStyle: TextStyle(
-              color: myFocusNode.hasFocus ? Color.fromRGBO(92, 107, 192, 1): Colors.black
+              color: myFocusNode.hasFocus ? ColorName().appColor: Colors.black
                   ),
-                          hintText: 'Enter New Staff Email',
+                          hintText: 'Enter Customer OTP',
             
                           //  enabledBorder: OutlineInputBorder(
                           //       borderSide: BorderSide(width: 3, color: Colors.greenAccent),
                           //     ),
                               focusedBorder: OutlineInputBorder(
-                                borderSide: BorderSide(width: 3, color: ColorName().appColor),
+                                borderSide: BorderSide(width: 3, color: Theme.of(context).primaryColor),
                               ),
                               errorBorder: OutlineInputBorder(
                                 borderSide: BorderSide(
-                                    width: 3, color: Color.fromARGB(255, 66, 125, 145)),
+                                    width: 3, color: ColorName().appColor),
                               ),
                           
                           
@@ -232,9 +233,9 @@ class _MakeStaffState extends State<MakeStaff> {
 
 
 
-                        }, child: Text("Make Staff", style: TextStyle(color: Colors.white),), style: ButtonStyle(
+                        }, child: Text("Done", style: TextStyle(color: Colors.white),), style: ButtonStyle(
                          
-                backgroundColor: MaterialStatePropertyAll<Color>(Color.fromRGBO(92, 107, 192, 1)),
+                backgroundColor: MaterialStatePropertyAll<Color>(ColorName().appColor),
               ),),),
 
 

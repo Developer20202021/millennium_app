@@ -13,6 +13,7 @@ import 'package:millennium_app/Screen/HomeScreen/TableOrder/TableOrder.dart';
 import 'package:millennium_app/Screen/HomeScreen/TableOrder/TableStructure.dart';
 import 'package:millennium_app/Screen/HomeScreen/UserOrderHistory/UserOrderHistory.dart';
 import 'package:millennium_app/Screen/HomeScreen/UserProfile/UserProfile.dart';
+import 'package:millennium_app/Screen/UsersScreen/DeliveryTimeScreen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: showHome ? AllUsers(): FrontSlider(),
+      home: showHome ? DeliveryTimeScreen(): FrontSlider(),
     );
   }
 }
